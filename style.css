@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Helvetica Neue', sans-serif;
+    line-height: 1.6;
+    background: linear-gradient(135deg, #4c83ff, #b1c2ff);
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background: #222;
+    color: #f4f4f4;
+    padding: 2rem;
+    text-align: center;
+    background: linear-gradient(135deg, #ff4c4c, #ff9a9a);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+  }
+  
+  h2 {
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    margin-bottom: 15px;
+  }
+  
+  section {
+    padding: 2rem;
+    margin: 30px auto;
+    max-width: 900px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  #promo img, #products img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s;
+  }
+  
+  #promo img:hover, #products img:hover {
+    transform: scale(1.05);
+  }
+  
+  #products .product-category {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  
+  #products .product-category img {
+    width: 150px;
+    margin-right: 20px;
+    border-radius: 5px;
+  }
+  
+  #reviews .review {
+    background: #f9f9f9;
+    padding: 15px;
+    margin: 15px 0;
+    border-left: 5px solid #4c83ff;
+    border-radius: 5px;
+  }
+  
+  #about-us {
+    background-color: #ff4c4c;
+    color: #fff;
+    text-align: center;
+    padding: 40px;
+    border-radius: 10px;
+  }
+  
+  #faq .faq-item {
+    margin-bottom: 20px;
+  }
+  
+  #faq .faq-item h3 {
+    color: #ff4c4c;
+  }
+  
+  #contact a {
+    text-decoration: none;
+    color: #4c83ff;
+  }
+  
+  #contact a:hover {
+    color: #ff4c4c;
+    text-decoration: underline;
+  }
+  
+  /* Footer */
+  footer {
+    background: #222;
+    color: #f4f4f4;
+    padding: 1rem;
+    text-align: center;
+    margin-top: 50px;}
